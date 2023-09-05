@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+      "jsx": "preserve",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "module": "esnext",
+      "target": "es5"
+  },
+  "extends": "./base.json"
+}

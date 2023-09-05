@@ -1,0 +1,16 @@
+{
+    "devDependencies": {
+        "@monorepo/eslint-config": "*",
+        "@monorepo/tsconfig": "*",
+        "react": "^17.0.2",
+        "typescript": "*"
+    },
+    "license": "MIT",
+    "main": "dist/index.js",
+    "name": "@monorepo/react-ui",
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint ./components/*.ts* --fix"
+    },
+    "version": "0.0.1"
+}

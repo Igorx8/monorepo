@@ -1,0 +1,33 @@
+{
+    "i18n-ally.localesPaths": ["locales"],
+    "i18n-ally.sourceLanguage": "pt-BR",
+    "peacock.color": "#1c1558",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#291f81",
+        "activityBar.background": "#291f81",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#b4392b",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#291f81",
+        "statusBar.background": "#1c1558",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#291f81",
+        "statusBarItem.remoteBackground": "#1c1558",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#1c1558",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#1c155899",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": true,
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "files.eol": "\r\n"
+}

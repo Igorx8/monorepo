@@ -1,0 +1,22 @@
+{
+    "extends": "./base.json",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "ESNext",
+        "lib": [
+            "ESNext",
+            "dom.iterable",
+            "ESNext.AsyncIterable",
+            "DOM"
+        ],
+        "paths": {
+            "~/*": [
+                "./*"
+            ],
+            "@/*": [
+                "./*"
+            ]
+        },
+        "types": ["@nuxt/types", "@types/node"]
+    }
+}
