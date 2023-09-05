@@ -5,6 +5,9 @@
         "react": "^17.0.2",
         "typescript": "*"
     },
+    "files": [
+        "dist"
+    ],
     "license": "MIT",
     "main": "dist/index.js",
     "name": "@monorepo/react-ui",

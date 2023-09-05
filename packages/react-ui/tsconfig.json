@@ -5,7 +5,7 @@
         "rootDir": ".",
         "module": "CommonJS",
         "strict": true,
-        "jsx": "react-jsx",
+        "jsx": "preserve",
         "declaration": true,
         "sourceMap": true
     },

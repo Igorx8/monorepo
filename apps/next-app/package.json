@@ -6,6 +6,7 @@
     "ui": "*"
   },
   "devDependencies": {
+    "@monorepo/react-ui": "*",
     "@next/eslint-plugin-next": "^13.4.19",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
@@ -14,8 +15,7 @@
     "eslint-config": "*",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3",
-    "tsconfig": "*",
-    "typescript": "^4.5.3"
+    "tsconfig": "*"
   },
   "name": "next-app",
   "private": true,
