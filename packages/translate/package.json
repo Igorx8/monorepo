@@ -1,0 +1,18 @@
+{
+    "devDependencies": {
+        "@monorepo/eslint-config": "*",
+        "@monorepo/tsconfig": "*",
+        "typescript": "*"
+    },
+    "files": [
+        "dist"
+    ],
+    "license": "UNLICENSED",
+    "main": "dist/index.js",
+    "name": "@monorepo/translate",
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint ./components/*.ts* --fix"
+    },
+    "version": "0.0.1"
+}

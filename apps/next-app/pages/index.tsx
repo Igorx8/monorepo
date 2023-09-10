@@ -5,8 +5,13 @@ export default function Home() {
     const router = useRouter();
 
     return (
-        <VStack w="100%" h="100vh" bg="lightcyan" justifyContent="center">
-            <Text color="orange" fontSize="40pt">
+        <VStack
+            w="100%"
+            h="100vh"
+            bg="linear-gradient(blue, purple)"
+            justifyContent="center"
+        >
+            <Text color="orange" fontSize={['30pt', '40pt']}>
                 Seja bem vindo a loja
             </Text>
             <Button

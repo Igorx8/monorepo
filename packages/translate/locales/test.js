@@ -1,0 +1,1 @@
+// Continuar pesquisando sobre como compartilhar os arquivos de tradução entre dois projetos
