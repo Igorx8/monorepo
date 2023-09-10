@@ -29,8 +29,12 @@ module.exports = {
         'import/no-cycle': 'warn',
         'no-underscore-dangle': 'warn',
         'react/react-in-jsx-scope': 'off',
+        'react/function-component-definition': "off",
+        '@typescript-eslint/no-explicit-any': 'off',
         'react/jsx-no-useless-fragment': 'warn',
         'no-param-reassign': 'warn',
+        'react/jsx-props-no-spreading': 'off',
+        'react/jsx-curly-brace-presence': 'off',
         'consistent-return': 'warn',
         'linebreak-style': 0,
         'no-console': [

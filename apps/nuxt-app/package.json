@@ -21,7 +21,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt",
+    "dev": "nuxt -p 8080",
     "generate": "nuxt generate",
     "start": "nuxt start"
   },

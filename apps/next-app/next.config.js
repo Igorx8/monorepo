@@ -1,4 +1,8 @@
-module.exports = {
-  reactStrictMode: true,
-  transpilePackages: ["@monorepo/react-ui"],
-};
+const withTM = require('next-transpile-modules')([
+  '@monorepo/react-ui',
+]);
+
+
+module.exports = withTM({
+    reactStrictMode: true,
+})
